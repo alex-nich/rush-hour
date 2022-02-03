@@ -6,9 +6,9 @@ Assumptions made: none
 Potential issues: Sometimes when calling bfs(), when next() is called, it invokes a maxrecursion error due to the deepcopy() method. 
 				  I'm not sure why, but it only happens at random and very seldomly.
 
-To run: (This is personally how I got my code to run TUX, but this could be common sense :))
+To run:
 * give +rwx permissions to Board.py, Path.py, and rushhour.py
-* execute run.sh *command* *[board]*
+* bash run.sh *command* *[board]*
 * list of possible commands:
   - *print*: prints the starting board
   - *done*: returns True is the starting board is in a solved state and False otherwise
